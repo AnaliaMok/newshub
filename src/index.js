@@ -7,7 +7,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render((
   <BrowserRouter>
-    <App />
+    <App apiKey={process.env.REACT_APP_NEWS_API_KEY}/>
   </BrowserRouter>
 ), document.getElementById('root'));
 
