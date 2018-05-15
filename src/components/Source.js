@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Source = () => (
+const Source = (source) => (
   <div>This is a single source</div>
 );
 
