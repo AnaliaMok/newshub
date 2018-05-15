@@ -14,9 +14,6 @@ nav{
   padding: 0;
   list-style-type: none;
 }
-.nav-list__item{
-  /* margin-left: 1.2rem; */
-}
 .nav-list__item a{
   display: block;
   position: relative;
@@ -36,4 +33,7 @@ nav{
   right: 0;
   height: 5px;
   background-color: #2D2D2D;
+}
+.nav-list__item--left{
+  margin-right: auto;
 }

@@ -3,4 +3,13 @@
   text-align: center;
   background: #1488CC;  /* fallback for old browsers */
   background: linear-gradient(#2B32B2, #1488CC);
+  color: #FCFCFC;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Lato', sans-serif;
+}
+
+main{
+  padding: 2rem;
 }

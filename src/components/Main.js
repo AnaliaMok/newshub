@@ -4,10 +4,12 @@ import Home from './Home';
 import Sources from './Sources';
 
 const Main = () => (
+  <main>
   <Switch>
     <Route exact path='/' component={Home}/>
     <Route path='/sources' component={Sources}/>
   </Switch>  
+  </main>
 );
 
 export default Main;
