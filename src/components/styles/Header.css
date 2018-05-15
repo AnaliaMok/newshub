@@ -1,0 +1,39 @@
+/*
+  Default styling for app header & nav
+*/
+
+nav{
+  background-color: #FCFCFC;
+  padding: 0 1.5rem;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.16);
+}
+.nav-list{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.nav-list__item{
+  /* margin-left: 1.2rem; */
+}
+.nav-list__item a{
+  display: block;
+  position: relative;
+  padding: 1.5rem 1rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  color: #2D2D2D;
+}
+.nav-list__item:hover a::after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background-color: #2D2D2D;
+}

@@ -6,7 +6,7 @@ import Sources from './Sources';
 const Main = () => (
   <Switch>
     <Route exact path='/' component={Home}/>
-    <Route path='/source' component={Sources}/>
+    <Route path='/sources' component={Sources}/>
   </Switch>  
 );
 
