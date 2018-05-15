@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Source from './Source';
+import './styles/Sources.css';
 
 export default class Sources extends Component {
   render() {

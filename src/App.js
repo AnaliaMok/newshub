@@ -6,7 +6,7 @@ import Main from './components/Main';
 const App = () => (
   <div className="App">
     <Header />
-    <Main />
+    <Main apiKey="32639444434c45d5a51addf66164042d" />
   </div>
 );
 
