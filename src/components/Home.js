@@ -38,7 +38,7 @@ export default class Home extends Component {
   render() {
     const { errors, isLoaded, headlines } = this.state;
     return (
-      <div>
+      <div className="home">
         <h2>Today's Headlines</h2>
         <div className="headlines">
           {headlines.map((headline) => (
