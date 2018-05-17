@@ -39,12 +39,12 @@ export default class Home extends Component {
     const { errors, isLoaded, headlines } = this.state;
     return (
       <div>
-        <ul>
+        <h2>Today's Headlines</h2>
+        <div className="headlines">
           {headlines.map((headline) => (
-            <li>{headline.title}</li>
+            <Headline headline={headline} key={headline.title} />
           ))}
-        </ul>
-        
+        </div>
       </div>
     )
   }
