@@ -30,6 +30,10 @@
   padding: 1rem;
   font-family: 'Lato', sans-serif;
 }
+.headlines__headline__excerpt{
+  margin: 0;
+  padding: 0.5rem 1rem 1rem;
+}
 .headlines__headline__image-container{
   display: inline-block;
   position: relative;
