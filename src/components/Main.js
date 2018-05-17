@@ -9,7 +9,9 @@ const Main = (props) => (
     <Route exact path='/' render={ () => 
       (<Home apiKey={props.apiKey} />)
     }/>
-    <Route path='/sources' component={Sources}/>
+    <Route exact path='/sources' render={ () => 
+      (<Sources apiKey={props.apiKey} />)
+    }/>
   </Switch>  
   </main>
 );
